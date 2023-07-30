@@ -1,0 +1,95 @@
+.specialty-container{
+    height: 330px;
+    margin-top: 40px;
+    padding: 100px;
+    .specialty-content{
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+    
+        .specialty-header{
+            height: 60px;
+            margin-bottom: 10px;
+            padding-top: 20px;
+            .title{
+                font-size: 24px;
+                font-weight: bold;
+                padding: 15px 0px 5px 0px;
+            }
+            .search{
+                width: fit-content;
+                height: 30px;
+                border-radius: 25px;
+                background: #f7d800;
+                i{
+                    margin: 0 5px;
+                    margin-right: 10px;
+                }
+                input{
+                    height: 30px;
+                    width: 360px;
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+        .specialty-body{
+            margin-top: 20px;
+            .specialty-img{
+                padding: 5px;
+                img{
+                    width: 100%;
+                    height: 200px;
+                    cursor: pointer;
+                }
+                .specialty-name{
+                    padding: 5px 0 ;
+                    cursor: pointer;
+                    width: fit-content;
+                    &:hover{
+                        color: #5fcbd9;
+                    }
+                }
+             }
+            .slick-prev{
+                border: 1px solid black !important;
+                left: -10 !important;
+                z-index: 1000 !important;
+                height: 48px !important;
+                width: 48px !important;
+                background: #fff !important;
+                &:hover{
+                    background: #bab5b5 !important;
+                }
+            }
+            
+            .slick-prev:before {
+                font-family: FontAwesome !important;
+                color: black !important;
+            }
+            
+            .slick-next{
+                border: 1px solid black !important;
+                right: 10 !important;
+                height: 48px !important;
+                width: 48px !important;
+                background: #fff !important;
+                &:hover{
+                    background: #bab5b5 !important;
+                }
+            }
+            
+            .slick-next:before {
+                font-family: FontAwesome !important;
+                color: black !important;
+            }
+
+            .slick-disabled{
+                display: none !important;
+            }
+        }
+    
+    }
+
+}

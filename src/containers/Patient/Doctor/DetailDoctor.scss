@@ -1,0 +1,80 @@
+.doctor-detail-container{
+    margin: 30px 150px;
+
+    .intro-doctor{
+        width: 100%;
+
+        .content-left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        .content-right{
+            padding-top: 30px;
+            .name-and-position{
+                font-size: 27px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            .information{
+                color: #555;
+                font-size: 13px;
+
+                .like-share{
+                    margin-top: 10px;
+                    display: flex;
+                    .like{
+                        cursor: pointer;
+                        i{
+                            margin-left: 10px;
+                            color: white;
+                        }
+                        span{
+                            margin-left: 10px;
+                            color: white;
+                        }
+                        width: 80px;
+                        background-color: #0a82ed;
+                        margin-right: 10px;
+                    }
+
+                    #fb-share-button {
+                        width: 80px;
+                        cursor: pointer;
+                        background: #0a82ed;
+                       
+                    }
+                    
+                    #fb-share-button svg {
+                        width: 18px;
+                        fill: white;
+                        vertical-align: middle;
+                        border-radius: 2px;
+                    }
+                    
+                    #fb-share-button span {
+                        vertical-align: middle;
+                        color: white;
+                        font-size: 14px;
+                        padding: 0 3px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    .doctor-infor-detail{
+        img{
+            padding: 50px;
+            width: 100%;
+        }
+    }
+}

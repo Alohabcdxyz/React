@@ -1,0 +1,220 @@
+{
+    "homeheader": {
+        "speciality":"Medical specialty",
+        "searchdoctor": "Find doctor by specialty",
+        "health-facility": "Health facility",
+        "select-room": "Choose clinic hospital",
+        "doctor":"Doctor",
+        "select-good-doctor": "Choose a good doctor",
+        "fee":"Examination Package",
+        "check-health": "General health check",
+        "support":"Support" ,
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "title1": "MEDICAL FOUNDATION",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "Specialized-examination": "Specialized examination",
+        "Remote-examination": "Remote examination",
+        "General-examination": "General examination",
+        "Medical-test": "Medical test",
+        "Mental-health": "Mental health",
+        "Dental-examination":"Dental examination",
+        "Medical-equipment":"Medical equipment",
+        "Health-test": "Health test",
+        "Placeholder": "Find a medical specialty"
+    },
+    "error": {
+        "phonenumber": "Phone numbers must be 10 digits and not formatted as letters" ,
+        "name": "Names can only contain letters and spaces"  ,
+        "mail": "Enter the correct email format"      
+    },
+    
+    "placeholder": {
+        "spe-place": "Find a medical specialist",
+        "facility": "Find a medical facility"
+    } ,
+
+    "menu": {
+        "admin" :{
+            "manage-user" : "User",
+            "manage-doctor" : "Doctor management",
+            "manage-admin" : "Admin Management",
+            "crud": "Create user",
+            "crud-redux": "Create user with redux",
+            "clinic": "Clinic",
+            "manage-clinic" : "Clinic Management",
+            "specialty": "Specialist",
+            "manage-specialty": "Specialist Management",
+            "edit-specialty": "Edit Specialty",
+            "edit-clinic": "Edit Clinic",
+            "hand-book": "Handbook",
+            "manage-hand-book" : "Handbook Management",
+            "edit-hand-book" :"Edit Handbook",
+            "manage-admin-pro":"Admin's Profile",
+            "dashboard": "Statistical",
+            "cli": "Clinic Management",
+            "cli-name": "Clinical name",
+            "cli-address": "Clinical address",
+            "cli-img":"Clinical photo",
+            "vi": "Vietnamese",
+            "en": "English",
+            "cli-name-en": "Clinical name(English)",
+            "more": "Read more",
+            "spe": "Specialty Management",
+             "spe-name": "Specialty name",
+             "spe-name-en": "Specialty name(English)",
+             "spe-img": "Specialist Image",
+             "des": "Description",
+             "option": "Option",
+             "less": "Hide"
+        },
+        "doctor" : {
+            "manage-doctor": "Doctor",
+            "manage-schedule": "Manage medical appointments",
+            "manage-booking": "Management of medical examination patients",
+            "manage-not-confirm-booking": "Management of medical examination patients that not confirm",
+            "manage-done-booking": "Done",
+            "manage-cancel-booking": "Cancel Booking",
+            "select-date": "Select Date",
+            "stt": "No",
+            "fullname": "Full name",
+            "gender":"Gender",
+            "address":"Address",
+            "time": "Time",
+            "reason": "Reason for examination",
+            "action": "🛠️",
+            "cancel-booking": "Manage canceled medical orders",
+            "done-booking": "Manage the application successfully examined",
+            "nodata": "No data",
+            "save": "Send prescription",
+            "cancel": "Cancel the examination order",
+            "manage-profile": "Management of specialties",
+            "phone": "Phone Number",
+            "mail": "Mail",
+            "profile": "Profile",
+            "manage-profile-extra": "Manage Profile"
+        }
+    },
+    "manage-user": {
+        "add": "Add new user",
+        "email": "Email",
+        "password": "Password",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "phone": "Phone Number",
+        "address": "Address",
+        "gender" : "Gender",
+        "position": "Position",
+        "role": "Role",
+        "img": "Avatar",
+        "save" : "Save",
+        "upload": "Upload Avatar",
+        "edit": "Edit"
+    },
+
+    "homepage": {
+        "outstanding-doctor": "HIGHLIGHTS DOCTOR OF THE YEARLAST WEEK",
+        "more": "More infor",
+        "specialty" : "Popular specialties",
+        "spe": "OUTSTANDING MEDICAL FACILITIES",
+        "handbook" : "HANDBOOK",
+        "aboutus": "Media talk about MinhCare"
+    },
+    "manage-schedule":{
+        "title": "Manage medical examination time",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save"
+    },
+
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Medical schedule",
+            "note": "The doctor does not have an appointment during this time, please choose another time",
+            "choose" : "Choose ",
+            "free": " and book (free)"
+        },
+        "extra-infor": {
+            "address":"medical examination address:",
+            "price": "Medical examination price:",
+            "detail": "See details",
+            "hide": "Hide price list",
+            "payment": "The clinic can pay in the form of:",
+            "free": "Free booking"
+        },
+        "booking": {
+            "title":"Information to book a medical appointment",
+            "fullname": "Full name",
+            "phone": "Phone Number",
+            "gender": "Gender",
+            "address": "Address",
+            "reason": "Reason for examination",
+            "email": "Email",
+            "birth": "Date of Birth",
+            "confirm": "Confirmation of booking",
+            "cancel": "Cancel"
+        }
+    },
+
+    "admin": {
+        "manage-doctor": {
+            "title": "Create doctor infor",
+            "choose-doctor": "Choose Doctor",
+            "information": "Information",
+            "information-en" : "Introduction (English)",
+            "create-data":"Create Data",
+            "save-data" : "Save Data",
+            "price": "Select Examination Price (One patient)",
+            "payment": "Select Payment Method",
+            "province": "Select Region",
+            "name": "Clinical Name",
+            "address": "Address Of The Clinic",
+            "note": "Note",
+            "specialty": "Select a specialty",
+            "clinic": "Select clinic"
+        }
+    },
+
+    
+"handbook": {
+    "create": "Post date",
+    "update": "Last update",
+    "author": "Author",
+    "back": "Back",
+    "hb-manage": "Manual management",
+    "tit": "Title Handbook",
+    "titen" : "Title manual(English)",
+    "thumb": "Thumbnail image",
+    "status": "Status",
+    "name-hb": "Handbook's name",
+    "des": "Description",
+    "option" : "Option"
+},
+
+"footer": {
+    "name": "MinhCare Technology Joint Stock Company",
+    "address": "Quan Hoa, Cau Giay, Ha Noi",
+    "bct": "Business registration number: 0106790291. Hanoi Department of Planning and Investment issued on March 16, 2015",
+    "hnoi": "Headquarter in Hanoi",
+    "hnoi-address": "Quan Hoa, Cau Giay, Ha Noi",
+    "vp": "Office in Ho Chi Minh City",
+    "vp-address": "No. 01, Ho Ba Kien, Ward 15, District 10",
+    "sp": "Customer Support"
+},
+
+"thongke" :{
+    "pick": "Select date",
+    "yes": "Doctors have appointments for today",
+    "no": "Doctors do not have an appointment for today",
+    "cli": "Existing",
+    "cli-extra": "clinic",
+    "spe": "specialty",
+    "doc": "doctor",
+    "news": "post",
+    "add" : "Address"
+   
+}
+
+    
+}

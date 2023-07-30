@@ -1,0 +1,57 @@
+.manage-doctor-container{
+    padding: 5px;
+
+    .manage-doctor-title {
+        text-align: center;
+        margin: 15px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .save-content{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        background: rgb(111, 198, 118);
+        cursor: pointer;
+        color: white;
+
+        &:hover{
+           opacity: 0.9;
+        }
+    }
+
+    .create-content{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        background: rgb(219, 178, 109);
+        cursor: pointer;
+        color: white;
+
+        &:hover{
+           opacity: 0.9;
+        }
+    }
+
+    .more-infor{
+        margin-bottom: 10px;
+        .content-right{
+            padding-left: 10px;
+        }
+    }
+    .doctor-clinic-infor{
+        margin: 20px 0;
+    }
+
+    .clinic-infor{
+        margin-bottom: 20px ;
+    }
+}

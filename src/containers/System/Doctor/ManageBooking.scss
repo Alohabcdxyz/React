@@ -1,0 +1,19 @@
+.manage-booking-container{
+    .manage-booking-title{
+        text-transform: uppercase;
+        margin: 15px 0;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+    }
+    .manage-booking-body{
+        padding: 20px;
+    }
+}
+div._loading_overlay_wrapper {
+    position: unset;
+    ._loading_overlay_overlay {
+        z-index: 1000000;
+    }
+
+}

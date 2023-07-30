@@ -1,0 +1,40 @@
+.dashboard{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    .spe-dashboard{
+        height: 200px;
+        width: 200px;
+        background:#0a82ed;
+        border-radius: 20px;
+        &:hover{
+            opacity: 0.8;
+        }
+        img{
+            display: block; 
+            margin: 0 auto; 
+            height: 150px;
+            width: 100px;
+        }
+        p{
+            font-size: 16px;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+.date{
+    padding: 20px;
+}
+.list{
+    padding: 20px;
+}
+
+.btn-vi{
+    
+    border: none;
+    outline: none;
+    background: #fff04b;
+    border-radius: 3px;
+    margin-left: 10px;
+}

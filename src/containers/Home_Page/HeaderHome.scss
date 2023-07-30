@@ -1,0 +1,167 @@
+.home-header-container {
+    padding: 0 40px;
+    width: 100%;
+    height: 85px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(248, 237, 237);
+    z-index: 100;
+    .left-header{
+        display: flex;
+        align-items: center;
+        .logo{
+            width: 240px;
+            height: 80px;
+            background: url('../../assets/images/12.png') center center no-repeat;
+            margin-left: 10px;
+        }
+        i{
+            font-size: 25px;
+            color: gray;
+            cursor: pointer;
+        }
+    }
+    .center-header{
+        padding-top: 10px;
+        .center-content{
+            margin-top: 10px;
+            .content-child{
+                p{
+                    font-size: 10px;
+                }
+                b{
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .right-header{
+        justify-content: center;
+        align-items: center;
+        .support{
+            cursor: pointer;
+            margin-top: 10px;
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            .tele , i{
+                color: aqua;
+                font-weight: 500;
+            }
+        }
+        .flag{
+            padding-top: 10px;
+            cursor: pointer;
+            .VietNam{
+                width: 30px;
+                transition: filter 0.3s ease;
+                &:hover {
+                    filter: brightness(1.2); 
+                  }
+            }
+            .USA{
+                width: 30px;
+                transition: filter 0.3s ease;
+                &:hover {
+                    filter: brightness(1.2); 
+                  }
+            }
+        }
+    }
+}
+
+.home-header-banner{
+    background: url('../../assets/images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    .up{
+        background-image: linear-gradient(rgba(126, 126, 126, 0.25),rgba(255, 255, 255, 0.1));
+        height: 65%;
+        .title1{
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-top: 30px;
+        }
+        .title2{
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .search{
+            width: fit-content;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 15px;
+            border-radius: 25px;
+            background: #f7d800;
+            i{
+                margin: 0 5px;
+                margin-right: 10px;
+            }
+            input{
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    .down{
+        height: 35%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 1));
+        .android{
+            margin-right: 25px;
+                    img{
+                        width: 100px;
+                        float: right;
+                    }
+                }
+                .ios{
+                    img{
+                        width: 90px;
+                        float: left;
+                    }
+                }
+        .option{
+            margin-top: 100px;
+            .option-child{
+                cursor: pointer;
+                .icon-child{
+                    background: white;
+                    width: 50px;
+                    height: 50px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+
+                    img{
+                        height: 25px;
+                    }
+                }
+                .text-child{
+                    font-size: 17px;
+                    font-weight: 500;
+                    text-align: center;
+                    &:hover{
+                        color: #49bce2;
+                    }
+                }
+            }
+        }
+    }
+}

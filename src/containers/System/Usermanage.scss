@@ -1,0 +1,48 @@
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.btn-edit{
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(95, 226, 95);
+
+    &:hover {
+        background-color: transparent !important;
+        color: rgb(95, 226, 95) !important;
+    }
+}
+
+.btn-delete{
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: red;
+
+    &:hover {
+        background-color: transparent !important;
+        color: red !important;
+    }
+}

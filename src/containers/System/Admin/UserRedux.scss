@@ -1,0 +1,27 @@
+.upload-img{
+    display: flex;
+    .label-upload {
+        padding: 5px;
+        height: 33px;
+        width: 45%;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+    
+        &:hover{
+            opacity: 0.9;
+        }
+    }
+    .preview-img{
+        height: 50px;
+        width: 55%;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
+.sua-user{
+
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,226 @@
+{
+    "homeheader": {
+        "speciality":"Chuyên khoa",
+        "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor":"Bác sĩ",
+        "select-good-doctor": "Chọn bác sĩ giỏi",
+        "fee":"Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support":"Hỗ trợ",
+        "welcome": "Xin chào, "
+    },
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "Specialized-examination": "Khám chuyên khoa",
+        "Remote-examination": "Khám từ xa",
+        "General-examination": "Khám tổng quát",
+        "Medical-test": "Xét nghiệm y học",
+        "Mental-health": "Sức khỏe tinh thần",
+        "Dental-examination":"Khám nha khoa",
+        "Medical-equipment":"Thiết bị y tế",
+        "Health-test": "Bài test sức khỏe",
+        "Placeholder": "Tìm chuyên khoa khám bệnh"
+    },
+
+    "placeholder": {
+        "spe-place": "Tìm chuyên khoa khám bệnh",
+        "facility": "Tìm cơ sở y tế"
+    },
+
+    "error": {
+        "phonenumber": "Số điện thoại phải có 10 chữ số và không được định dạng dưới dạng chữ",
+        "name": "Tên chỉ được chứa chữ cái và khoảng trắng",
+        "mail": "Nhập đúng định dạng email"        
+    }
+,
+    "menu": {
+        "admin" :{
+            "manage-user" : "Người dùng",
+            "manage-doctor" : "Quản lý bác sĩ",
+            "manage-admin" : "Quản lý admin",
+            "crud": "Tạo người dùng",
+            "crud-redux": "Tạo người dùng với redux",
+            "clinic": "Phòng khám",
+            "manage-clinic" : "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "edit-specialty": "Chỉnh sửa chuyên khoa",
+            "edit-clinic": "Chỉnh sửa phòng khám",
+            "hand-book": "Cẩm nang",
+            "manage-hand-book" : "Quản lý cẩm nang",
+            "edit-hand-book" :"Chỉnh sửa cẩm nang",
+            "manage-admin-pro":"Quản lý hồ sơ admin",
+            "dashboard": "Thống kê",
+            "cli": "Quản lý phòng khám",
+            "cli-name": "Tên phòng khám",
+            "cli-name-en": "Tên phòng khám (Tiếng Anh)",
+            "cli-address": "Địa chỉ phòng khám",
+            "cli-img":"Ảnh phòng khám",
+            "vi": "Tiếng Việt",
+            "en": "Tiếng Anh",
+            "more": "Đọc thêm",
+            "spe": "Quản lý chuyên khoa",
+            "spe-name": "Tên chuyên khoa",
+            "spe-name-en": "Tên chuyên khoa(Tiếng Anh)",
+            "spe-img": "Ảnh chuyên khoa",
+            "des": "Mô tả ",
+            "option": "Lựa chọn",
+            "less": "Ẩn bớt"
+        },
+        "doctor" : {
+            "manage-doctor": "Bác sĩ",
+            "manage-schedule": "Quản lý lịch khám",
+            "manage-booking": "Quản lý bệnh nhân khám bệnh",
+            "manage-not-confirm-booking": "Quản lý bệnh nhân chưa xác nhận khám bệnh",
+            "manage-done-booking": "Đã khám xong",
+            "manage-cancel-booking": "Đơn khám đã hủy",
+            "select-date": "Chọn ngày khám",
+            "stt": "STT",
+            "fullname": "Họ và tên",
+            "gender":"Giới tính",
+            "address":"Địa chỉ",
+            "time": "Thời gian",
+            "reason": "Lý do khám",
+            "action": "🛠️",
+            "cancel-booking": "Quản lý đơn khám đã hủy",
+            "done-booking": "Quản lý đơn đã khám thành công",
+            "nodata": "Không có dữ liệu",
+            "save": "Gửi đơn thuốc",
+            "cancel": "Hủy đơn khám",
+            "profile": "Hồ sơ",
+            "manage-profile": "Quản lý chuyên khoa",
+            "phone": "Số điện thoại",
+            "mail": "Email",
+            "manage-profile-extra": "Quản lý hồ sơ"
+        }
+    },
+
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "firstname": "Tên",
+        "lastname": "Họ",
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender" : "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "img": "Ảnh đại diện",
+        "save" : "Lưu",
+        "upload": "Tải ảnh",
+        "edit": "Cập nhật"
+    },
+
+    "homepage": {
+        "outstanding-doctor": "BÁC SĨ NỔI BẬT TUẦN QUA",
+        "more": "Xem thêm",
+        "specialty" : "Chuyên khoa phổ biến",
+        "spe": "CƠ SỞ Y TẾ NỔI BẬT",
+        "handbook": "CẨM NANG",
+        "aboutus": "Truyền thông nói về MinhCare"
+    },
+
+    "manage-schedule":{
+        "title": "Quản lý thời gian khám bệnh",
+        "choose-doctor": "Chọn bác sĩ",
+        "choose-date": "Chọn ngày",
+        "save": "Lưu thông tin"
+    },
+
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "note": "Bác sĩ không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác",
+            "choose" : "Chọn ",
+            "free": " và đặt (miễn phí)"
+        },
+        "extra-infor": {
+            "address":"ĐỊA CHỈ KHÁM:",
+            "price": "Giá khám:",
+            "detail": "Xem chi tiết",
+            "hide": "Ẩn bảng giá",
+            "payment": "Phòng khám có thanh toán bằng hình thức:",
+            "free": "Miễn phí đặt lịch"
+        },
+        "booking": {
+            "title":"Thông tin đặt lịch khám bệnh",
+            "fullname": "Họ và tên",
+            "phone": "Số điện thoại",
+            "gender": "Giới tính",
+            "address": "Địa chỉ",
+            "reason": "Lý do khám",
+            "email": "Email",
+            "birth": "Ngày sinh",
+            "confirm": "Xác nhận đặt khám",
+            "cancel": "Hủy"
+        }
+    },
+
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo thông tin bác sĩ",
+            "choose-doctor": "Chọn bác sĩ",
+            "information": "Thông tin giới thiệu",
+            "information-en" : "Thông tin giới thiệu (Tiếng anh)",
+            "create-data":"Tạo thông tin",
+            "save-data" : "Lưu thông tin",
+            "price": "Giá khám (Một bệnh nhân)",
+            "payment": "Chọn phương thức thanh toán",
+            "province": "Chọn khu vực",
+            "name": "Tên phòng khám",
+            "address": "Địa chỉ phòng khám",
+            "note": "Note",
+            "specialty": "Chọn chuyên khoa",
+            "clinic": "Chọn phòng khám",
+            "title-spe": "Chỉnh sửa thông tin chuyên khoa"
+        }
+    },
+
+    "handbook": {
+        "create": "Ngày đăng",
+        "update": "Cập nhật gần nhất",
+        "author": "Tác giả",
+        "back": "Quay lại",
+        "hb-manage": "Quản lý cẩm nang",
+        "tit": "Title cẩm nang",
+        "titen" : "Title cẩm nang(Tiếng anh)",
+        "thumb": "Ảnh thumbnail",
+        "status": "Trạng thái",
+        "name-hb": "Tên cẩm nang",
+        "des": "Mô tả",
+        "option": "Lựa chọn"
+    },
+
+    "footer": {
+        "name": "Công ty Cổ phần Công nghệ MinhCare",
+        "address": "Quan Hoa, Cầu Giấy, Hà Nội",
+        "bct": "ĐKKD số: 0106790291. Sở KHĐT Hà Nội cấp ngày 16/03/2015",
+        "hnoi": "Trụ sở tại Hà Nội",
+        "hnoi-address": "Quan Hoa, Cầu Giấy, Hà Nội",
+        "vp": "Văn phòng tại TP Hồ Chí Minh",
+        "vp-address": "Số 01, Hồ Bá Kiện, Phường 15, Quận 10",
+        "sp": "Hỗ trợ khách hàng"
+    },
+
+    "thongke" :{
+        "pick": "Chọn ngày",
+        "yes": "Các bác sĩ có lịch khám ngày hôm nay",
+        "no": "Các bác sĩ không có lịch khám ngày hôm nay", 
+        "cli": "Hiện có",
+        "cli-extra": "phòng khám",
+        "spe": "chuyên khoa",
+        "doc": "bác sĩ",
+        "news": "bài đăng",
+        "add" : "Địa chỉ"
+        
+    }
+
+    
+
+
+    
+}
